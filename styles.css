@@ -10,17 +10,6 @@ body, html {
 .animation-container {
     animation: slideIn 2s linear 0s 1 forwards;
 }
-
-@keyframes slideIn {
-    0% {
-        transform: translateX(-100%);
-        opacity: 0;
-    }
-    100% {
-        transform: translateX(0);
-        opacity: 1;
-    }
-
 .netflixintrof {
   display: block;
   position: relative;
@@ -44,4 +33,14 @@ body, html {
     animation-name: fading-lumieres-box;
   }
 }
+
+@keyframes slideIn {
+    0% {
+        transform: translateX(-100%);
+        opacity: 0;
+    }
+    100% {
+        transform: translateX(0);
+        opacity: 1;
+    }
 }
