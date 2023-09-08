@@ -19,23 +19,5 @@ h1 {
     background-image: linear-gradient(45deg, #f06, #09f, #0c0, #f06);
     background-clip: text;
     -webkit-background-clip: text;
-    animation: rainbowText 4s infinite linear, slideIn 2s ease-in-out forwards;
-}
-
-@keyframes rainbowText {
-    0% {
-        background-position: 0%;
-    }
-    100% {
-        background-position: 400%;
-    }
-}
-
-@keyframes slideIn {
-    0% {
-        transform: translateX(-100%);
-    }
-    100% {
-        transform: translateX(0);
-    }
+    cursor: pointer; /* Add this line to make the text clickable */
 }
