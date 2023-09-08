@@ -20,7 +20,7 @@ body, html {
         transform: translateX(0);
         opacity: 1;
     }
-}
+
 .netflixintrof {
   display: block;
   position: relative;
@@ -43,4 +43,5 @@ body, html {
     transform: rotate(188deg);
     animation-name: fading-lumieres-box;
   }
+}
 }
